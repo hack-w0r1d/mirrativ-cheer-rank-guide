@@ -107,7 +107,7 @@ function getLevelData(level) {
 
 /* アイコン（線画・統一スタイル） */
 const ICONS = {
-  gift: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 8.2v7.6M8.7 10.1c0-1.1 1-1.9 2.2-1.9 1.3 0 2.3.7 2.3 1.7 0 2.3-4.5 1.6-4.5 3.9 0 1 1 1.8 2.3 1.8 1.2 0 2.2-.8 2.2-1.9"/></svg>',
+  gift: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10.5" width="16" height="9" rx="1.3"/><rect x="3" y="7" width="18" height="3.8" rx="1"/><path d="M12 7v12.5"/><ellipse cx="9.2" cy="4.6" rx="2.4" ry="2.1"/><ellipse cx="14.8" cy="4.6" rx="2.4" ry="2.1"/></svg>',
   comment: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16v10.5H9.8L5.5 19.5V16H4z"/></svg>',
   time: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3.2 2"/></svg>',
   days: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5.5" width="16" height="14" rx="1.8"/><path d="M4 9.5h16M8 3.5v3.5M16 3.5v3.5"/><path d="M9 13.3l2 2 4-4.2"/></svg>',
