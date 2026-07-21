@@ -255,7 +255,7 @@ function renderResult({ heading, rankChip, levelData, note }) {
   const el = document.getElementById('resultArea');
   const conds = getAvailableConditions(levelData);
 
-  const condCards = conds.map(c => `
+  const cardHtmls = conds.map(c => `
     <div class="cond-card cond-${c.id}">
       <div class="cond-card__head">
         <span class="cond-card__badge">条件${c.id}</span>
@@ -270,7 +270,15 @@ function renderResult({ heading, rankChip, levelData, note }) {
         `).join('')}
       </ul>
     </div>
-  `).join('<div class="cond-or">または</div>');
+  `);
+
+  /* 区切りの「または」は最初の1つだけ他要素と同じ行に流し、
+     2つ目以降（＝最後の条件カードの直前）は常に単独の行にする */
+  let condCards = cardHtmls[0] || '';
+  for (let i = 1; i < cardHtmls.length; i++) {
+    const orClass = i === 1 ? 'cond-or' : 'cond-or cond-or--break';
+    condCards += `<div class="${orClass}">または</div>${cardHtmls[i]}`;
+  }
 
   el.innerHTML = `
     <div class="result-head">

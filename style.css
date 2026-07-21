@@ -459,6 +459,10 @@ section { padding: 64px 0; }
   font-weight: 600;
   padding: 4px 10px;
 }
+.cond-or--break {
+  flex-basis: 100%;
+  text-align: center;
+}
 
 /* ==========================================================================
    Table
@@ -697,6 +701,7 @@ section { padding: 64px 0; }
   .search-panel { padding: 20px; border-radius: var(--radius-md); }
   .cond-cards { flex-direction: column; }
   .cond-or { align-self: flex-start; padding-left: 2px; }
+  .cond-or--break { flex-basis: auto; }
   .table-scroll { max-height: 70vh; }
   .ladder-badge { width: 98px; height: 120px; }
   .cheer-table th, .cheer-table td { padding: 9px 6px; font-size: 12.5px; }
