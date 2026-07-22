@@ -48,7 +48,7 @@ const LEVELS = [
   { level: 11, a: { gift: 1800,   comment: 45,  time: '5時間30分', days: '5日' }, b: { gift: 4000,    comment: 15,  time: '2時間12分' }, c: { gift: 6000 } },
   { level: 12, a: { gift: 2200,   comment: 50,  time: '6時間',     days: '5日' }, b: { gift: 5500,    comment: 20,  time: '2時間24分' }, c: { gift: 8250 } },
   { level: 13, a: { gift: 3000,   comment: 55,  time: '6時間30分', days: '6日' }, b: { gift: 7000,    comment: 25,  time: '2時間36分' }, c: { gift: 10500 } },
-  { level: 14, a: { gift: 4000,   comment: 60,  time: '7時間',     days: '7日' }, b: { gift: 8500,    comment: 30,  time: '2時間48分' }, c: { gift: 12750 } },
+  { level: 14, a: { gift: 4000,   comment: 60,  time: '7時間',     days: '6日' }, b: { gift: 8500,    comment: 30,  time: '2時間48分' }, c: { gift: 12750 } },
   { level: 15, a: { gift: 5000,   comment: 70,  time: '7時間30分', days: '7日' }, b: { gift: 10000,   comment: 35,  time: '3時間' }, c: { gift: 15000 } },
   { level: 16, a: { gift: 6000,   comment: 80,  time: '8時間30分', days: '7日' }, b: { gift: 12000,   comment: 40,  time: '3時間12分' }, c: { gift: 18000 } },
   { level: 17, a: { gift: 7000,   comment: 90,  time: '9時間',     days: '8日' }, b: { gift: 14000,   comment: 45,  time: '3時間24分' }, c: { gift: 21000 } },
